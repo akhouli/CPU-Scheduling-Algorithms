@@ -1,12 +1,15 @@
 # CPU-Scheduling-Algorithms
     
 #To run:
+---------------
 * Open SchedulerSim.java
 * Create an object of the scheduler type (FCFS, PS, SRTF, RR)
 * call scheduler.runScheduler();
 
+------------------------------------------------------------------
 One of the main tasks of an operating system is scheduling processes to run on the CPU i.e.
-to decide the order in which processes can access a processor.This program schedules simulated CPU processes. 
+to decide the order in which processes can access a processor.
+This program schedules simulated CPU processes. 
 The simulator program will implement four of the CPU scheduling algorithms (First Come
 First Serve (FCFS), Shortest Remaining Time First (SRTF), which is the
 preemptive version of Shortest Job First (SJF), Priority Scheduling (PS) (a higher
@@ -17,6 +20,7 @@ algorithm chosen at runtime. Since the assignment intends to simulate a CPU sche
 does not require any actual process creation or execution. When the CPU scheduler
 chooses the next process, the simulator will simply print out which process was selected to
 run at that time. The simulator output is similar to the Gantt chart.
+
 #Design 
 ---------------------
 * Processes
