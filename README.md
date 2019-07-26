@@ -31,15 +31,7 @@ which the scheduler receives the process and places it in the ready queue. Arriv
 times may be duplicated, which means multiple processes may arrive at the same
 time. Burst Time is the CPU time that a process needs to complete it task. Priority
 indicates the importance of a Process. A higher value indicates higher priority.
-Process.txt is a text file that containts a list of 200 processes in the following format (with the
-header omitted).
-The following table is an example of a three process input file.
-
-Process ID Burst Time Arrival Time Priority
-1001     83           0             3
-1002     86           0             5
-1003     49           0             5
-... ... ... ...
+Process.txt is a text file that containts a list of 200 processes 
 
 * Class Process stores the Process ID, Burst Time, Arrival Time,
 and Priority of a process. You can also add data members to keep
